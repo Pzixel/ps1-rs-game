@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-psx = { path = "./psx-sdk-rs/psx" }
+arrayvec = { version = "0.7.6", default-features = false }
+psx = { path = "../psx-sdk-rs/psx" }
